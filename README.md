@@ -1,7 +1,17 @@
 # PhotoShareWeb
 照片分享网站
 
-这是我个人制作的照片分享网站，作为Web实践的课程设计。
+这是我个人制作的照片分享网站，作为Web实践的课程设计。（持续更新中）
+
+
+## 如何使用？
+  
+  1. git clone 本项目
+  2. 使用IDEA打开本项目
+  3. 导入sql文件，并修改DBUtil中的连接配置
+  4. 使用Tomcat7.0服务器启动
+
+
 
 前端使用Bootstrap+JQuery后端使用JavaWeb
 
@@ -22,3 +32,4 @@
 
 分享页
 ![pic3](http://i2.buimg.com/4851/82398e820d01277a.png)
+
