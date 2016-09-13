@@ -6,10 +6,10 @@
 
 ## 如何使用？
   
-  1. git clone 本项目
-  2. 使用IDEA打开本项目
-  3. 导入sql文件，并修改DBUtil中的连接配置
-  4. 使用Tomcat7.0服务器启动
+    1. git clone 本项目
+    2. 使用IDEA打开本项目
+    3. 导入sql文件，并修改DBUtil中的连接配置
+    4. 使用Tomcat7.0服务器启动
 
 
 
