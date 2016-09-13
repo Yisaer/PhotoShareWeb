@@ -1,0 +1,22 @@
+<component name="libraryTable">
+  <library name="com.springsource.javax.servlet.jsp.jstl-1.1.2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/src/main/resources/jar 2/com.springsource.javax.servlet.jsp.jstl-1.1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/main/resources/jar 2/com.springsource.org.apache.taglibs.standard-1.1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/main/resources/jar 2/commons-codec-1.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/main/resources/jar 2/commons-logging-1.1.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/main/resources/jar 2/fluent-hc-4.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/main/resources/jar 2/httpclient-4.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/main/resources/jar 2/httpclient-cache-4.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/main/resources/jar 2/httpcore-4.2.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/main/resources/jar 2/httpcore-ab-4.2.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/main/resources/jar 2/httpcore-nio-4.2.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/main/resources/jar 2/httpmime-4.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/main/resources/jar 2/mysql-connector-java-5.1.6-bin.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/main/resources/jar 2/org.json-chargebee-1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/main/resources/jar 2/qiniu-java-sdk-6.1.7.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
