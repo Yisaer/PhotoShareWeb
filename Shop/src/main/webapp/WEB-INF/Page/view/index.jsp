@@ -14,7 +14,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
-    <title>Bootstrap 101 Template</title>
+    <title>伊莉萨白</title>
 
     <!-- Bootstrap -->
     <link href="./lib/css/bootstrap.min.css" rel="stylesheet">
@@ -45,6 +45,11 @@
     $('#Share').click(function(){
         $.get('${pageContext.request.contextPath}' + '/ImageAction?type=3',function(data, status) {
             location.href="/share.jsp";
+        });
+    });
+    $('#Comment').click(function(){
+        $.get('${pageContext.request.contextPath}' + '/CommentAction?type=2',function(data, status) {
+            location.href="/Comment.jsp";
         });
     });
 </script>

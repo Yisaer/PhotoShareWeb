@@ -19,6 +19,7 @@
                     <li><a href="#" data-toggle="modal" data-target="#fileModa">Profile</a></li>
                     <li><a href="#" data-toggle="modal" data-target="#proModa">Update</a></li>
                     <li><a href="#" data-toggle="modal" data-target="#myModa2">Upload</a></li>
+                    <li><a href="#" data-toggle="modal" data-target="#CommentModa">Comment</a></li>
                     <li><a href="#" data-toggle="modal" data-target="#myModa3">Delete</a></li>
                 </ul>
             </div>
@@ -160,3 +161,20 @@
     </div>
 </div>
 <!-- 删除图片对话框 end -->
+
+<!-- 评论对话框 START  -->
+
+<div class="modal fade" id="CommentModa" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header"> <strong>Comment</strong> </div>
+
+            <textarea class="form-control" rows="3" id="CommentContent"></textarea>
+
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+                <button type="button" class="btn btn-danger" id="CommentSubmit">Submit</button>
+            </div>
+        </div>
+    </div>
+</div>

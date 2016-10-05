@@ -103,3 +103,13 @@ $(document).ready(function() {
         $('#reg_repassword').popover('destroy');
     });
 });
+$('#menuShare').click(function(){
+    $.get('${pageContext.request.contextPath}' + '/ImageAction?type=3',function(data, status) {
+        location.href="/share.jsp";
+    });
+});
+$('#menuComment').click(function(){
+    $.get('${pageContext.request.contextPath}' + '/CommentAction?type=2',function(data, status) {
+        location.href="/Comment.jsp";
+    });
+});

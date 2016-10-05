@@ -36,8 +36,8 @@
                 <div class="carousel-caption">
                     <h1> 与好友 共度水木年华</h1>
 
-                    <p><a class="btn btn-lg btn-primary" href="#"
-                          role="button">好友分享</a></p>
+                    <p><a class="btn btn-lg btn-primary" href="Comment.jsp"
+                      id="Comment"   role="button">好友分享</a></p>
                 </div>
             </div>
         </div>
@@ -48,7 +48,7 @@
                 <div class="carousel-caption">
                     <h1>与我们 共创旖旎未来</h1>
 
-                    <p><a class="btn btn-lg btn-primary" href="#" target="_blank"
+                    <p><a class="btn btn-lg btn-primary" href="Join.jsp"
                           role="button">加入我们</a></p>
                 </div>
             </div>

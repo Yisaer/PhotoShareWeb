@@ -18,8 +18,6 @@ public class User implements Serializable {
     private String password;    //密码
     private List<Image> images;    //图片列表
 
-
-
     public User() {
     }
 

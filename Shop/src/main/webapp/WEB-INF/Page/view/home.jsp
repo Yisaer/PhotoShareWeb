@@ -16,7 +16,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
-    <title>Bootstrap 101 Template</title>
+    <title>伊莉萨白</title>
 
     <!-- Bootstrap -->
     <link href="./lib/css/bootstrap.min.css" rel="stylesheet">
@@ -126,6 +126,27 @@
                 location.href = '${pageContext.request.contextPath}' + '/home.jsp';
             });
         });
+    });
+
+    // 点击提交上传评论
+
+    $('#CommentSubmit').click(function(){
+        $.post(
+                '${pageContext.request.contextPath}' + '/CommentAction?type=1',
+                {
+                    username: '${sessionScope.user.username}',
+                    CommentContent: $('#CommentContent').val(),
+                },
+                function(data,status){
+                    if(data === '1'){
+                        createPopOver('#CommentContent', 'right', 'not null', 'show');
+                    }
+                    else if(data === '5'){
+                        location.href = '${pageContext.request.contextPath}' + '/home.jsp';
+                    }
+                }
+
+        );
     });
 
 </script>

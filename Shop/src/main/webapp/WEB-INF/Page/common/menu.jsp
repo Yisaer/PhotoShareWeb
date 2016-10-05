@@ -24,23 +24,9 @@
         <div class="navbar-collapse collapse" id="demo-nav">
             <ul class="nav navbar-nav">
                 <li class="active"><a href="index.jsp">首页</a></li>
-                <li><a href="#summary-container">简述</a></li>
+                <li class="active" id="menuShare"><a href="share.jsp">分享</a></li>
+                <li class="active" id="menuComment"><a href="Comment.jsp">留言墙</a></li>
 
-                <!-- 下拉菜单 -->
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">特点 <span class="caret"></span></a>
-                    <ul class="dropdown-menu" role="menu">
-                        <li class="dropdown-header">标题名称</li>
-                        <li><a href="#feature-tab" data-tab="tab-chrome">Chrome</a></li>
-                        <li><a href="#feature-tab" data-tab="tab-firefox">Firefox</a></li>
-                        <li><a href="#feature-tab" data-tab="tab-safari">Safari</a></li>
-                        <li><a href="#feature-tab" data-tab="tab-opera">Opera</a></li>
-                        <!-- 分割线 -->
-                        <li class="divider"> </li>
-                        <li ><a href="#feature-tab" data-tab="tab-ie" >IE</a></li>
-                    </ul>
-                </li>
-                <!-- 菜单结束 -->
                 <li><a href="#" data-toggle="modal" data-target="#about-modal">关于</a></li>
             </ul>
             <div class="navbar-form navbar-right" role="search">
