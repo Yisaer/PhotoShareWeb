@@ -36,7 +36,7 @@ public class DBUtil {
      */
     private static Connection getConnection() {
         try {
-            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/tbl?useUnicode=true&characterEncoding=UTF-8", "xxxx", "xxxx");
+            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/tbl?useUnicode=true&characterEncoding=UTF-8", "yisa", "ff123321");
             //将数据库名字修改为自己的数据库
         } catch (SQLException e) {
             e.printStackTrace();
