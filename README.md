@@ -3,7 +3,9 @@
 
 这是我个人制作的照片分享网站，作为Web实践的课程设计。（暂停更新中）
 
+
 [Demo地址](http://115.159.154.44:8080/ImgShare/)
+**服务器维护中**
 
 ## 如何使用？
   
@@ -26,20 +28,7 @@
 
 增加了用户文字分享功能。
 
-主页
 
-![pic1](http://i2.buimg.com/4851/d496112e293db4a8.png)
-
-个人页
-![pic2](http://i2.buimg.com/4851/0ead140d3580c891.png)
-
-分享页
-![pic3](http://i2.buimg.com/4851/82398e820d01277a.png)
-
-![pic4](http://p1.bpimg.com/4851/8620bb24a9bd930c.png)
-
-加入我们
-![pic5](http://p1.bpimg.com/4851/c6ec29ba8c7f6659.png)
 
 
 
